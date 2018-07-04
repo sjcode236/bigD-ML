@@ -1,1 +1,4 @@
-# bigD
+# bigData    
+hadoop  
+spark    
+ML   
