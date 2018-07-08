@@ -1,4 +1,12 @@
 
+=========================================================
+NAT - Your host will act as a router (firewall) and your guests will be on a private subnet. Use this if you are not running servers on the guests.
+Bridged - Your guests will get a ip address on the same subnet as your host. Use this if you are running servers on the guest and wish to connect from other computers on the LAN.
+Host Only - Sort of a hybrid. As the name implies, with this option you can connect to the guest servers from the host only. Use this for "private" (host only) servers. I use this if I am running a test web server.
+
+To make a long story short, assuming you have a router, I would use bridged networking. 
+========================================================
+
 passwd hadoop
 hd123
 
